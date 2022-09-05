@@ -7,7 +7,7 @@ namespace Mantenimiento.app.Persistencia
     public class RepositorioCliente:IRepositorioCliente
     {   
         /// <sumary>
-        /// Referencia al contexto de Cliente
+        /// Referencia al contexto de Cliente mod
         /// <sumary>
         private readonly AppContext _appContext;
         /// <sumary>
