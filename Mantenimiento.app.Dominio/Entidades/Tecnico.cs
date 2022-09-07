@@ -3,7 +3,7 @@ namespace Mantenimiento.app.Dominio
 {
     public class Tecnico:Persona
     {
-        public int IdTecnico{get;set;}
+        public int Id{get;set;}
         public string User{get;set;}
         public string Pass{get;set;}
         public void revisarVehiculo(){

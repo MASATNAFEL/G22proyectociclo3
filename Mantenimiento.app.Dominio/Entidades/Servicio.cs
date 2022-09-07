@@ -3,7 +3,7 @@ namespace Mantenimiento.app.Dominio
 {
     public class Servicio
     {
-        public int IdServicio{get;set;}
+        public int Id{get;set;}
         public DateTime FechaRevision{get;set;}
         public int IdTecnico{get;set;}
         public int IdVehiculo{get;set;}

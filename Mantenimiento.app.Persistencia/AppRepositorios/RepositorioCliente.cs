@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using System.linq;
+using System.Linq;
 using Mantenimiento.app.Dominio;
 
 namespace Mantenimiento.app.Persistencia
@@ -7,7 +7,7 @@ namespace Mantenimiento.app.Persistencia
     public class RepositorioCliente:IRepositorioCliente
     {   
         /// <sumary>
-        /// Referencia al contexto de Cliente mod
+        /// Referencia al contexto de Cliente
         /// <sumary>
         private readonly AppContext _appContext;
         /// <sumary>
@@ -21,14 +21,14 @@ namespace Mantenimiento.app.Persistencia
         }
         Cliente IRepositorioCliente.AddCliente(Cliente cliente)
         {
-            var clienteAdicionado= _appContext.Clientes.add(cliente);
+            var clienteAdicionado=_appContext.Clientes.Add(cliente);
             _appContext.SaveChanges();
             return clienteAdicionado.Entity;
         }
         void IRepositorioCliente.DeleteCliente(int idCliente)
         {
             var clienteEncontrado= _appContext.Clientes.FirstOrDefault(c => c.Id==idCliente);
-            if(clienteEncontrado==Null)
+            if(clienteEncontrado==null)
             return;
             _appContext.Clientes.Remove(clienteEncontrado);
             _appContext.SaveChanges();
@@ -43,8 +43,8 @@ namespace Mantenimiento.app.Persistencia
         }
         Cliente IRepositorioCliente.UpdateCliente(Cliente cliente)
         {
-            var clienteEncontrado= _appContext.Clientes.FirstOrDefault(c => c.Id==Cliente.Id);
-            if(clienteEncontrado!=Null)
+            var clienteEncontrado= _appContext.Clientes.FirstOrDefault(c => c.Id==cliente.Id);
+            if(clienteEncontrado!=null)
             {
                 clienteEncontrado.Nombre=cliente.Nombre;
                 clienteEncontrado.Apellido=cliente.Apellido;

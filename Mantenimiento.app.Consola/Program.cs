@@ -9,6 +9,7 @@ namespace Mantenimiento.app.Consola
         private static IRepositorioCliente _repoCliente= new RepositorioCliente(new Persistencia.AppContext);
         static void Main(string[] args)
         {
+            Cliente cliente = new Cliente();
             Console.WriteLine("Hola tu y hola yo");
             AddCliente();
         }

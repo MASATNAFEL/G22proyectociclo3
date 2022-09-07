@@ -5,7 +5,7 @@ namespace Mantenimiento.app.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet<Persona> Personas{get;set;}
+        public DbSet<Cliente> Clientes{get;set;}
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
              {
