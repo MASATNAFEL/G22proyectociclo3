@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "pl1Irt1pUDMEccZ/TyTNDpubo1xSECy2rXUUJYCqCBnaX5a40NTx+hakFqnC2FIRCxMy4NK6vpmxpqCbeE1Vog==",
   "success": true,
   "projectFilePath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj",
+=======
+  "dgSpecHash": "g8nhJL5eE2tWj5ZZbCQKy3jwKTyQhciPmQYEqoG6IcW5F1vaFJH5lsinjOEjVPIO2/m2w7koB6xCcAp8JLNxiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj",
+>>>>>>> 660396501fe490a49f2ce9ca0c57918fb7501304
   "expectedPackageFiles": [],
   "logs": []
 }

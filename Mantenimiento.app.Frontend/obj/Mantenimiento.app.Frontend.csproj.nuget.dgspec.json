@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj",
+        "projectName": "Mantenimiento.app.Frontend",
+        "projectPath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\Mantenimiento.app.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Jimi Alexes Acosta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jimi Alexes Acosta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 660396501fe490a49f2ce9ca0c57918fb7501304
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
