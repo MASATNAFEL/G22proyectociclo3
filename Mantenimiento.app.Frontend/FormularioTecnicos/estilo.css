@@ -1,0 +1,10 @@
+#contenido{
+    width: 600px;
+    background: aliceblue ;
+    font: 22px arial;
+    margin:auto;
+    margin-top: 150px;
+    border: 10px solid green;
+    padding: 20px;
+    box-shadow: 20px 20px 20px; 
+}
