@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "erg9SE3+feNAjIzgzyA8vZehxu/sX1RxABzRxYBYbMcHt3YQ6scr6xwW7NxRCsj22/GI4j209Q17A7k5Xwc46w==",
+  "dgSpecHash": "N6zBawxTa7LPY6rBshHJvFdh/X3WWsw5B2uoSHsvgWGaU1SVI1+M6DqAUN7iPv3Hj/alB0Ws74TBS39BMU06IA==",
   "success": true,
-  "projectFilePath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
+  "projectFilePath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {}
+    "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
+    "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj",
+        "projectUniqueName": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj",
         "projectName": "Mantenimiento.app.Dominio",
-        "projectPath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj",
+        "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\obj\\",
+        "outputPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
+      "projectUniqueName": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
       "projectName": "Mantenimiento.app.Persistencia",
-      "projectPath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
+      "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Persistencia\\obj\\",
+      "outputPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
-              "projectPath": "C:\\MantenimientoAutomotriz\\Mantenimiento.app\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj"
+            "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
+              "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj"
             }
           }
         }

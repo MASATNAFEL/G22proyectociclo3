@@ -3,7 +3,6 @@ namespace Mantenimiento.app.Dominio
 {
     public class Cliente:Persona
     {
-        public int Id{get;set;}
         public string Telefono{get;set;}
         public string correo{get;set;}
         public string placa{get;set;}

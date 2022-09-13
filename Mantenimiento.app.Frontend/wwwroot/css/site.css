@@ -69,3 +69,10 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
