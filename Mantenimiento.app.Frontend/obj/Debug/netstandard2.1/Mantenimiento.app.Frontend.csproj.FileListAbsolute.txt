@@ -1,0 +1,4 @@
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netstandard2.1\Mantenimiento.app.Frontend.csprojAssemblyReference.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netstandard2.1\Mantenimiento.app.Frontend.AssemblyInfoInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netstandard2.1\Mantenimiento.app.Frontend.AssemblyInfo.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netstandard2.1\Mantenimiento.app.Frontend.csproj.CoreCompileInputs.cache

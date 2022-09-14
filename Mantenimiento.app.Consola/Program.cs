@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Net.WebSockets;
+using System;
 using Mantenimiento.app.Dominio;
 using Mantenimiento.app.Persistencia;
 
@@ -6,12 +7,12 @@ namespace Mantenimiento.app.Consola
 {
     class Program
     {
-        private static IRepositorioCliente _repoCliente= new RepositorioCliente(new Persistencia.AppContext());
+        private static IRepositorioCliente _repoCliente= new RepositorioCliente(new Persistencia.ApplicationContext());
         static void Main(string[] args)
         {
             Cliente cliente = new Cliente();
             AddCliente();
-            Console.WriteLine("Hola tu y hola yo");
+            
         }
 
         private static void AddCliente()
@@ -26,6 +27,7 @@ namespace Mantenimiento.app.Consola
                 User="elfue",
                 Pass="theend"
             };
+            Console.WriteLine("Hola tu y hola yo "+cliente.Nombre);
             _repoCliente.AddCliente(cliente);
         }
     }

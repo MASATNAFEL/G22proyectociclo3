@@ -1,0 +1,14 @@
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Consola.deps.json
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Consola.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Consola.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Dominio.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Persistencia.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Persistencia.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\bin\Debug\netstandard2.1\Mantenimiento.app.Dominio.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.csprojAssemblyReference.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.AssemblyInfoInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.AssemblyInfo.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.csproj.CoreCompileInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.csproj.CopyComplete
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Consola\obj\Debug\netstandard2.1\Mantenimiento.app.Consola.pdb

@@ -9,13 +9,13 @@ namespace Mantenimiento.app.Persistencia
         /// <sumary>
         /// Referencia al contexto de Tecnico
         /// <sumary>
-        private readonly AppContext _appContext;
+        private readonly ApplicationContext _appContext;
         /// <sumary>
         /// Metodo Constructor Utiliza
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// <sumary>
         /// <param name="appContext"></param>//
-        public RepositorioTecnico(AppContext appContext)
+        public RepositorioTecnico(ApplicationContext appContext)
         {
             _appContext=appContext;
         }

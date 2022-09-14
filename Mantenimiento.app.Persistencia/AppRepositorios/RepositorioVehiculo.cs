@@ -9,13 +9,13 @@ namespace Mantenimiento.app.Persistencia
         /// <sumary>
         /// Referencia al contexto de Vehiculo
         /// <sumary>
-        private readonly AppContext _appContext;
+        private readonly ApplicationContext _appContext;
         /// <sumary>
         /// Metodo Constructor Utiliza
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// <sumary>
         /// <param name="appContext"></param>//
-        public RepositorioVehiculo(AppContext appContext)
+        public RepositorioVehiculo(ApplicationContext appContext)
         {
             _appContext=appContext;
         }

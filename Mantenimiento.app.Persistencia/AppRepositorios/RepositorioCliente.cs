@@ -9,13 +9,13 @@ namespace Mantenimiento.app.Persistencia
         /// <sumary>
         /// Referencia al contexto de Cliente
         /// <sumary>
-        private readonly AppContext _appContext;
+        private readonly ApplicationContext _appContext;
         /// <sumary>
         /// Metodo Constructor Utiliza
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// <sumary>
         /// <param name="appContext"></param>//
-        public RepositorioCliente(AppContext appContext)
+        public RepositorioCliente(ApplicationContext appContext)
         {
             _appContext=appContext;
         }

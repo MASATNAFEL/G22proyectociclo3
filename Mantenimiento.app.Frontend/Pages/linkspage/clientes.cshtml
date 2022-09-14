@@ -7,11 +7,11 @@
 </div>
 <br><br>
 <div>
-    <a asp-page="../clientes/Create">Crear</a>
-    <i class="fa-solid fa-user-plus"></i>
+    <a asp-page="../clientes/Create">Crear
+    <i class="fa-solid fa-user-plus"></i></a>
 </div>
 <ul>
-aquie va la lista de clientes:
+aqui va la lista de clientes:
 <table>
   <tr>
     <th>ID</th>
@@ -25,18 +25,19 @@ aquie va la lista de clientes:
     <th>Actualizar</th>
     <th>Eliminar</th>
   </tr>
+
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td><i class="fa-solid fa-eye"></i></td>
-    <td><i class="fa fa-rotate"></i></td>
-    <td><i class="fa fa-eraser"></i></td>
-    
+    <td>Id</td>
+    <td>Nombre</td>
+    <td>Apellido</td>
+    <td>Documento</td>
+    <td>Direccion</td>
+    <td>Telefono</td>
+    <td>Correo</td>
+    <td><a class="btn btn-info" asp-page="../clientes/Details"><i class="fa-solid fa-eye"></i></a></td>
+    <td><a class="btn btn-success" asp-page="../clientes/Create"><i class="fa fa-rotate"></i></a></td>
+    <td><a class="btn btn-danger" asp-page="../clientes/Delete"><i class="fa fa-eraser"></i></a></td>
   </tr>
+  
 </table>
 </ul>

@@ -1,0 +1,9 @@
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.deps.json
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.csprojAssemblyReference.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.AssemblyInfoInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.AssemblyInfo.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.csproj.CoreCompileInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb

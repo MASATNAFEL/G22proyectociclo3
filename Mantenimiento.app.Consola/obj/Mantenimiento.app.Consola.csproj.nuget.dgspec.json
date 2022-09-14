@@ -45,23 +45,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.sqlserver": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             }
           },
           "imports": [
@@ -96,13 +96,13 @@
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -113,7 +113,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -125,7 +125,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
@@ -146,13 +146,13 @@
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
                 "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj"
@@ -167,27 +167,27 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.sqlserver": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             }
           },
           "imports": [
@@ -201,7 +201,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },

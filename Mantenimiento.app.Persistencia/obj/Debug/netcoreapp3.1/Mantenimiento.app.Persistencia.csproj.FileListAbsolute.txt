@@ -1,0 +1,15 @@
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.deps.json
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.runtimeconfig.json
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.runtimeconfig.dev.json
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csprojAssemblyReference.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.AssemblyInfoInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.AssemblyInfo.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csproj.CoreCompileInputs.cache
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csproj.CopyComplete
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.genruntimeconfig.cache
