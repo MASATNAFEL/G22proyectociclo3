@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Home</a>
+                <a class="navbar-brand text-white" asp-area="" asp-page="/Index">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,19 +20,22 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/linkspage/ingresar">Ingresar</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/linkspage/ingresar">Ingresar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Productos y Servicios</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Privacy">Productos y Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/linkspage/quienessomos">Quienes somos?</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/linkspage/quienessomos">Quienes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/linkspage/contactanos">Contactanos</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/linkspage/contactanos">Contactanos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/linkspage/clientes">Clientes</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/linkspage/clientes">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/FormularioClientesTic/Formularios">vista</a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +50,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Mantenimiento.app.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2022 - MantenimientoTic - <a asp-area="" asp-page="/linkspage/contactanos">Privacy</a>
         </div>
     </footer>
 
@@ -56,5 +59,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
+    <img src="carretera.png" alt="carretera" style="width:900px;height:700px;">
+    <img src="taller.png" class="rounded" alt="taller">
 </body>
 </html>

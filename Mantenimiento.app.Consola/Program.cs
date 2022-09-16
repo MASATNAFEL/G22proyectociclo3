@@ -12,6 +12,7 @@ namespace Mantenimiento.app.Consola
         {
             Cliente cliente = new Cliente();
             AddCliente();
+            Console.WriteLine("Hola tu y hola yo "+cliente.Nombre+" "+cliente.User);
             
         }
 
@@ -27,7 +28,7 @@ namespace Mantenimiento.app.Consola
                 User="elfue",
                 Pass="theend"
             };
-            Console.WriteLine("Hola tu y hola yo "+cliente.Nombre);
+            
             _repoCliente.AddCliente(cliente);
         }
     }
