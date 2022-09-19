@@ -6,11 +6,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Mantenimiento.app.Dominio;
+using Mantenimiento.app.Persistencia;
+
 
 namespace Mantenimiento.app.Frontend
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
@@ -22,5 +26,6 @@ namespace Mantenimiento.app.Frontend
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+                
     }
 }
