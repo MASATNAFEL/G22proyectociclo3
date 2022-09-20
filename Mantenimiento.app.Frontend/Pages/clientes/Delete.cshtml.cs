@@ -20,8 +20,11 @@ namespace MyApp.Namespace
         }
         public void OnGet(int id)
         {
-           Cliente= _repoCliente.GetCliente(id);
-           Console.WriteLine("capturado: "+id);
+           Cliente= _repoCliente.GetCliente(id);           
+        }
+        public void OnPost(int id)
+        {
+           _repoCliente.DeleteCliente(id);           
         }
     }
 }
