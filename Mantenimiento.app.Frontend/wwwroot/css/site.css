@@ -86,7 +86,7 @@ th, td {
 }
 .visorbanner{
  overflow:hidden; 
- position: relative;/*tambien puede ser absolute si se quiere*/
+ position: absolute;/*tambien puede ser absolute si se quiere*/
  top: 0px;
  left: 0px;
  width: 1170px;

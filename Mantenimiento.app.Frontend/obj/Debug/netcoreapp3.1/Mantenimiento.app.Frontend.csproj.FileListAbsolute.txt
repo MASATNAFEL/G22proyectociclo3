@@ -121,10 +121,6 @@ C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.a
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Mantenimiento.app.Frontend.genruntimeconfig.cache
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Mantenimiento.app.Frontend.csproj.CopyComplete
 >>>>>>> 660396501fe490a49f2ce9ca0c57918fb7501304
-C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs
-C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
-C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
-C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -171,3 +167,7 @@ C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debu
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs
