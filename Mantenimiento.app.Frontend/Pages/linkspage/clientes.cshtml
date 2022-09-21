@@ -15,13 +15,9 @@ aqui va la lista de clientes:
 <table class="table">
   <tr>
     <th>NUMERO</th>
-    <th>Nombre</th>
-    <th>Apellido</th>
     <th>Documento</th>
+    <th>Nombre Completo</th>
     <th>placa</th>
-    <th>Direccion</th>
-    <th>telefono</th>
-    <th>correo</th>
     <th>Detalle</th>
     <th>Actualizar</th>
     <th>Eliminar</th>
@@ -30,15 +26,11 @@ aqui va la lista de clientes:
 {
   <tr>
     <td>@cliente.Id</td>
-    <td>@cliente.Nombre</td>
-    <td>@cliente.Apellido</td>
     <td>@cliente.Documento</td>
+    <td>@cliente.Nombre @cliente.Apellido</td>
     <td>@cliente.placa</td>
-    <td>@cliente.Direccion</td>
-    <td>@cliente.Telefono</td>
-    <td>@cliente.correo</td>
-    <td><a class="btn btn-info" asp-page="../clientes/Details"><i class="fa-solid fa-eye center"></i></a></td>
-    <td><a class="btn btn-success" asp-page="../clientes/Create"><i class="fa fa-rotate"></i></a></td>
+    <td><a class="btn btn-info" asp-page="../clientes/Details" asp-route-id="@cliente.Id"><i class="fa-solid fa-eye center"></i></a></td>
+    <td><a class="btn btn-success" asp-page="../clientes/Create" asp-route-id="@cliente.Id"><i class="fa fa-rotate"></i></a></td>
     <td><a class="btn btn-danger" asp-page="../clientes/Delete" asp-route-id="@cliente.Id"><i class="fa fa-eraser"></i></a></td>
   </tr>
 }  

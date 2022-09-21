@@ -78,11 +78,12 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 table, th, td {
+  font-size: 30px;
   border: 1px solid white;
   border-collapse: collapse;
 }
 th, td {
-  background-color: #1eff00;
+  background-color: blue;
 }
 .visorbanner{
  overflow:hidden; 
@@ -103,4 +104,8 @@ left: 0px;
 position: absolute;
 top: 450px;
 left: 0px;
+}
+.newtitle
+{
+font-size: 80px;
 }

@@ -22,9 +22,10 @@ namespace MyApp.Namespace
         {
            Cliente= _repoCliente.GetCliente(id);           
         }
-        public void OnPost(int id)
+        public IActionResult OnPost(int id)
         {
-           _repoCliente.DeleteCliente(id);           
+           _repoCliente.DeleteCliente(id);
+           return new RedirectToPageResult("./linkspage/Clientes");
         }
     }
 }
