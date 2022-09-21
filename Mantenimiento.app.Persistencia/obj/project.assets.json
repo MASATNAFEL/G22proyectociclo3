@@ -5815,19 +5815,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Jimi Alexes Acosta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
       "projectName": "Mantenimiento.app.Persistencia",
-      "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\Mantenimiento.app.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Jimi Alexes Acosta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jimi Alexes Acosta\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5838,8 +5838,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
-              "projectPath": "C:\\MantenimientoAutomotriz\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj"
+            "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Jimi Alexes Acosta\\Desktop\\mision_tic\\G22proyectociclo3\\Mantenimiento.app.Dominio\\Mantenimiento.app.Dominio.csproj"
             }
           }
         }

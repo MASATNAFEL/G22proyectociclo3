@@ -125,3 +125,7 @@ C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debu
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs

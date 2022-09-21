@@ -7,3 +7,12 @@ C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.csproj.CoreCompileInputs.cache
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.deps.json
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.csprojAssemblyReference.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.AssemblyInfoInputs.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.AssemblyInfo.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Dominio\obj\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb

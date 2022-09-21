@@ -13,3 +13,18 @@ C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.genruntimeconfig.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.deps.json
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.runtimeconfig.json
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.runtimeconfig.dev.json
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csprojAssemblyReference.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.AssemblyInfo.cs
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.csproj.CopyComplete
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
+C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Persistencia\obj\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.genruntimeconfig.cache
