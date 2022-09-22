@@ -1,6 +1,7 @@
 ﻿@page
 @model Mantenimiento.app.Frontend.Pages.clientesModel
-@{
+@{ 
+int counter=1;
 }
 <div class="justify-content-center text-center">
     <h4>Gestion de Clientes - Mantenimiento TIC</h4>
@@ -25,14 +26,14 @@ aqui va la lista de clientes:
    @foreach (var cliente in Model.Clientes)
 {
   <tr>
-    <td>@cliente.Id</td>
+    <td>@counter</td>
     <td>@cliente.Documento</td>
     <td>@cliente.Nombre @cliente.Apellido</td>
     <td>@cliente.placa</td>
     <td><a class="btn btn-info" asp-page="../clientes/Details" asp-route-id="@cliente.Id"><i class="fa-solid fa-eye center"></i></a></td>
     <td><a class="btn btn-success" asp-page="../clientes/Create" asp-route-id="@cliente.Id"><i class="fa fa-rotate"></i></a></td>
     <td><a class="btn btn-danger" asp-page="../clientes/Delete" asp-route-id="@cliente.Id"><i class="fa fa-eraser"></i></a></td>
-  </tr>
+  </tr>counter = counter + 1;
 }  
   
 </table>

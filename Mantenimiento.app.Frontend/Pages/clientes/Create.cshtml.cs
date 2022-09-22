@@ -31,7 +31,6 @@ namespace MyApp.Namespace
         }
          public IActionResult OnPost(int? id)
         {
-            Console.WriteLine("este es el id "+id);
             if(id>0)
             {
                 Cliente=_repoCliente.UpdateCliente(Cliente);
