@@ -11,16 +11,36 @@ namespace MyApp.Namespace
 {
     public class CreateModel : PageModel
     {
-         private IRepositorioCliente _repoCliente;
-
+        private readonly IRepositorioCliente _repoCliente;
+        [BindProperty]
         public Cliente Cliente{get;set;}
 
         public CreateModel(IRepositorioCliente repoCliente){
            _repoCliente=repoCliente; 
         }
-        public void OnGet(int id)
+        public void OnGet(int? id)
         {
-            Cliente= _repoCliente.GetCliente(id);
+            if(id.HasValue)
+            {
+                Cliente= _repoCliente.GetCliente(id.Value);
+            }
+            else
+            {
+                Cliente=new Cliente();
+            }
+        }
+         public IActionResult OnPost(int? id)
+        {
+            Console.WriteLine("este es el id "+id);
+            if(id>0)
+            {
+                Cliente=_repoCliente.UpdateCliente(Cliente);
+            }
+            else
+            {
+                _repoCliente.AddCliente(Cliente);
+            }
+           return new RedirectToPageResult("../linkspage/clientes");
         }
     }
 }

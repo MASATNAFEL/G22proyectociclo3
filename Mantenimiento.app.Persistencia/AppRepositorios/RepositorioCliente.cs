@@ -1,3 +1,5 @@
+using System.IO.Pipes;
+using System.Net.WebSockets;
 using System.Collections.Generic;
 using System.Linq;
 using Mantenimiento.app.Dominio;

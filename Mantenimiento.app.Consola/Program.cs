@@ -11,6 +11,7 @@ namespace Mantenimiento.app.Consola
         static void Main(string[] args)
         {
             Cliente cliente = new Cliente();
+            AddCliente(); 
             ImprimirClientes();           
             
         }
@@ -26,17 +27,17 @@ namespace Mantenimiento.app.Consola
         private static void AddCliente()
         {
             var cliente = new Cliente{
-                Nombre="Nicolas",
-                Apellido="Perez",
-                Documento=10000000,
-                Direccion="villa perdida",
-                Telefono="6060000000",
-                correo="done@notiene.com",
-                User="elfue",
+                Nombre="miguel",
+                Apellido="pelaez",
+                Documento=10000002,
+                Direccion="villa perdida2",
+                Telefono="6060000002",
+                correo="done2@notiene.com",
+                User="elfue1",
                 Pass="theend"
             };
             
-            _repoCliente.AddCliente(cliente);
+            _repoCliente.UpdateCliente(cliente);
         }
     }
 }

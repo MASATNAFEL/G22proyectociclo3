@@ -9,45 +9,47 @@
 <a class="btn btn-primary" asp-page="../linkspage/clientes"><i
         class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
 <br><br>
-<table>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.Nombre):</th>
-        <td><input type="text" name="Nombre" placeholder="@Html.DisplayFor(m=>m.Cliente.Nombre)"></td>
-    </tr>
-    <br>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.Apellido):</th>
-        <td><input type="text" name="Apellido" placeholder="@Html.DisplayFor(m=>m.Cliente.Apellido)"></td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.Documento):</th>
-        <td><input type="text" name="Documento" placeholder="@Html.DisplayFor(m=>m.Cliente.Documento)"></td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.placa):</th>
-        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.placa)"></td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.Direccion):</th>
-        <td><input type="text" name="Dirección" placeholder="@Html.DisplayFor(m=>m.Cliente.Direccion)"></td>
-    </tr>
-    <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.Telefono):</th>
-        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.Telefono)"></td>
-    </tr>
-        <tr>
-        <th>@Html.DisplayNameFor(m=>m.Cliente.correo):</th>
-        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.correo)"></td>
-    </tr>
-    </table>
+<form method="post">
+    <input type="hidden" asp-for="Cliente.Id" />
+    <div class="form-group row">
+        <label asp-for="Cliente.Nombre"></label>
+        <input asp-for="Cliente.Nombre" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.Apellido"></label>
+        <input asp-for="Cliente.Apellido" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.Documento"></label>
+         <input asp-for="Cliente.Documento" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.placa"></label>
+        <input asp-for="Cliente.placa" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.Direccion"></label>
+        <input asp-for="Cliente.Direccion" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.Telefono"></label>
+        <input asp-for="Cliente.Telefono" class="form-control">
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Cliente.correo"></label>
+        <input asp-for="Cliente.correo" class="form-control">
+    </div>
+    <input type="hidden" asp-for="Cliente.User">
+    <input type="hidden" asp-for="Cliente.Pass">
     <br><br>
     <div class="row">
-    <div class="col-md-2">
-    <input type="submit" value="Registrar" class="btn btn-success">
-    </div>
-    <div class="col-md-2">
-    <input type="submit" value="Salir" class="btn btn-primary" asp-page="../linkspage/clientes">
-    </div>
-    <div class="col-md-2">
-    <input type="submit" value="Borrar" class="btn btn-danger" asp-page="../clientes/create">
-    </div>
+        <div class="col-md-2">
+            <input type="submit" value="Registrar" class="btn btn-success" asp-page="/Create/OnPost">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Salir" class="btn btn-primary">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Borrar" class="btn btn-danger">
+        </div>
+</form>

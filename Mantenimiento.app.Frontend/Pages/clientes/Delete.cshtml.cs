@@ -25,7 +25,7 @@ namespace MyApp.Namespace
         public IActionResult OnPost(int id)
         {
            _repoCliente.DeleteCliente(id);
-           return new RedirectToPageResult("./linkspage/Clientes");
+           return new RedirectToPageResult("../linkspage/clientes");
         }
     }
 }
