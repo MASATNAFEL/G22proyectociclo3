@@ -3,6 +3,51 @@
 @{
 }
 <h1>Aqui se ingresa la informacion del nuevo cliente</h1>
+<hr>
+<br><br>
 <a class="btn btn-success"><i class="fa fa-rotate"></i></a>
 <a class="btn btn-primary" asp-page="../linkspage/clientes"><i
         class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<table>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.Nombre):</th>
+        <td><input type="text" name="Nombre" placeholder="@Html.DisplayFor(m=>m.Cliente.Nombre)"></td>
+    </tr>
+    <br>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.Apellido):</th>
+        <td><input type="text" name="Apellido" placeholder="@Html.DisplayFor(m=>m.Cliente.Apellido)"></td>
+    </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.Documento):</th>
+        <td><input type="text" name="Documento" placeholder="@Html.DisplayFor(m=>m.Cliente.Documento)"></td>
+    </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.placa):</th>
+        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.placa)"></td>
+    </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.Direccion):</th>
+        <td><input type="text" name="Dirección" placeholder="@Html.DisplayFor(m=>m.Cliente.Direccion)"></td>
+    </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.Telefono):</th>
+        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.Telefono)"></td>
+    </tr>
+        <tr>
+        <th>@Html.DisplayNameFor(m=>m.Cliente.correo):</th>
+        <td><input type="text" name="Telefono" placeholder="@Html.DisplayFor(m=>m.Cliente.correo)"></td>
+    </tr>
+    </table>
+    <br><br>
+    <div class="row">
+    <div class="col-md-2">
+    <input type="submit" value="Registrar" class="btn btn-success">
+    </div>
+    <div class="col-md-2">
+    <input type="submit" value="Salir" class="btn btn-primary" asp-page="../linkspage/clientes">
+    </div>
+    <div class="col-md-2">
+    <input type="submit" value="Borrar" class="btn btn-danger" asp-page="../clientes/create">
+    </div>

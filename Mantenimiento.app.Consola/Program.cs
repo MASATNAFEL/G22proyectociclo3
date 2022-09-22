@@ -11,11 +11,18 @@ namespace Mantenimiento.app.Consola
         static void Main(string[] args)
         {
             Cliente cliente = new Cliente();
-            AddCliente();
-            Console.WriteLine("Hola tu y hola yo "+cliente.Nombre+" "+cliente.User);
+            ImprimirClientes();           
             
         }
-
+        private static void ImprimirClientes()
+        {
+            var clientes = _repoCliente.GetAllClientes();
+            Console.WriteLine("los cliente son: ");
+            foreach (var cliente in clientes)
+            {
+                Console.WriteLine(cliente.Nombre+" "+cliente.Apellido+" "+cliente.Documento+" "+cliente.Direccion);
+            }
+        }
         private static void AddCliente()
         {
             var cliente = new Cliente{

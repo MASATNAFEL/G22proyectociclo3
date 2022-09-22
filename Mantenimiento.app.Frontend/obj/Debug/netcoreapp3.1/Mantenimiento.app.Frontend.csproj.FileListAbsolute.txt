@@ -121,11 +121,60 @@ C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.a
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Mantenimiento.app.Frontend.genruntimeconfig.cache
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Mantenimiento.app.Frontend.csproj.CopyComplete
 >>>>>>> 660396501fe490a49f2ce9ca0c57918fb7501304
-C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.dll
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Persistencia.pdb
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\bin\Debug\netcoreapp3.1\Mantenimiento.app.Dominio.pdb
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
 C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Create.cshtml.g.cs
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Delete.cshtml.g.cs
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\clientes\Details.cshtml.g.cs
 C:\Users\Jimi Alexes Acosta\Desktop\mision_tic\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs
+=======
+C:\MantenimientoAutomotriz\G22proyectociclo3\Mantenimiento.app.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\linkspage\clientes.cshtml.g.cs
+>>>>>>> 0951dff25e09df8b7aa2625c733e4314c5534a12

@@ -2,6 +2,57 @@
 @model MyApp.Namespace.DetailsModel
 @{
 }
-<h1>Aqui se ve la informacion del cliente seleccionado</h1>
+<h1>informacion del cliente</h1>
+<hr>
+<br><br>
 <a class="btn btn-info"><i class="fa-solid fa-eye"></i></a>
 <a class="btn btn-primary" asp-page="../linkspage/clientes"><i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<div>
+<h5>Cliente</h5>
+<br><br>
+<div class="row">
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.Nombre):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.Nombre)
+    </div>
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.Apellido):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.Apellido)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.Documento):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.Documento)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.placa):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.placa)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.Direccion):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.Direccion)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.Telefono):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.Telefono)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Cliente.correo):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Cliente.correo)
+    </div>
+    </div>
+    </div>

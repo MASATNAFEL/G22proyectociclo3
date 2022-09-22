@@ -2,42 +2,39 @@
 @model Mantenimiento.app.Frontend.Pages.clientesModel
 @{
 }
-<div class="justify-comtent-center text-center">
+<div class="justify-content-center text-center">
     <h4>Gestion de Clientes - Mantenimiento TIC</h4>
 </div>
 <br><br>
-<div>
-    <a asp-page="../clientes/Create">Crear
-    <i class="fa-solid fa-user-plus"></i></a>
-</div>
+
 <ul>
+<div>
+    <a class="btn btn-primary" asp-page="../clientes/Create">Crear <i class="fa-solid fa-user-plus"></i></a>
+</div>
 aqui va la lista de clientes:
-<table>
+<table class="table">
   <tr>
     <th>NUMERO</th>
-    <th>Nombre</th>
-    <th>Apellido</th>
     <th>Documento</th>
-    <th>Direccion</th>
-    <th>telefono</th>
-    <th>correo</th>
+    <th>Nombre Completo</th>
+    <th>placa</th>
     <th>Detalle</th>
     <th>Actualizar</th>
     <th>Eliminar</th>
   </tr>
-
+   @foreach (var cliente in Model.Clientes)
+{
   <tr>
-    <td>Id</td>
-    <td>Nombre</td>
-    <td>Apellido</td>
-    <td>Documento</td>
-    <td>Direccion</td>
-    <td>Telefono</td>
-    <td>Correo</td>
-    <td><a class="btn btn-info" asp-page="../clientes/Details"><i class="fa-solid fa-eye"></i></a></td>
-    <td><a class="btn btn-success" asp-page="../clientes/Create"><i class="fa fa-rotate"></i></a></td>
-    <td><a class="btn btn-danger" asp-page="../clientes/Delete"><i class="fa fa-eraser"></i></a></td>
+    <td>@cliente.Id</td>
+    <td>@cliente.Documento</td>
+    <td>@cliente.Nombre @cliente.Apellido</td>
+    <td>@cliente.placa</td>
+    <td><a class="btn btn-info" asp-page="../clientes/Details" asp-route-id="@cliente.Id"><i class="fa-solid fa-eye center"></i></a></td>
+    <td><a class="btn btn-success" asp-page="../clientes/Create" asp-route-id="@cliente.Id"><i class="fa fa-rotate"></i></a></td>
+    <td><a class="btn btn-danger" asp-page="../clientes/Delete" asp-route-id="@cliente.Id"><i class="fa fa-eraser"></i></a></td>
   </tr>
+}  
   
 </table>
+
 </ul>
