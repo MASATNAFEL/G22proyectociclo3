@@ -12,30 +12,56 @@ int counter=1;
 <div>
     <a class="btn btn-primary" asp-page="../clientes/Create">Crear <i class="fa-solid fa-user-plus"></i></a>
 </div>
-aqui va la lista de clientes:
-<table class="table">
-  <tr>
-    <th>NUMERO</th>
-    <th>Documento</th>
-    <th>Nombre Completo</th>
-    <th>placa</th>
-    <th>Detalle</th>
-    <th>Actualizar</th>
-    <th>Eliminar</th>
-  </tr>
-   @foreach (var cliente in Model.Clientes)
-{
-  <tr>
-    <td>@counter</td>
-    <td>@cliente.Documento</td>
-    <td>@cliente.Nombre @cliente.Apellido</td>
-    <td>@cliente.placa</td>
-    <td><a class="btn btn-info" asp-page="../clientes/Details" asp-route-id="@cliente.Id"><i class="fa-solid fa-eye center"></i></a></td>
-    <td><a class="btn btn-success" asp-page="../clientes/Create" asp-route-id="@cliente.Id"><i class="fa fa-rotate"></i></a></td>
-    <td><a class="btn btn-danger" asp-page="../clientes/Delete" asp-route-id="@cliente.Id"><i class="fa fa-eraser"></i></a></td>
-  </tr>counter = counter + 1;
-}  
-  
-</table>
+lista de clientes:
 
+<div class="row">
+    <div class="col-md-1 table-bordered">
+      <strong>Id</strong>
+      </div>
+      <div class="col-md-2 table-bordered">
+      <strong>Documento</strong>
+      </div>
+      <div class="col-md-4 table-bordered">
+      <strong>Nombre Completo</strong>
+      </div>
+      <div class="col-md-2 table-bordered">
+      <strong>Placa</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Detalle</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Actualizar</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Eliminar</strong>
+      </div>
+
+      @foreach (var cliente in Model.Clientes)
+{
+  <div class="col-md-1 center table-bordered">
+      @counter
+      </div>
+      <div class="col-md-2 table-bordered">
+      @cliente.Documento
+      </div>
+      <div class="col-md-4 table-bordered">
+      @cliente.Nombre @cliente.Apellido
+      </div>
+      <div class="col-md-2 table-bordered">
+      @cliente.placa
+      </div>
+      <div class="col-md-1 center table-bordered">
+      <a class="btn btn-info" asp-page="../clientes/Details" asp-route-id="@cliente.Id"><i class="fa-solid fa-eye center"></i></a>
+      </div>
+        <div class="col-md-1 center table-bordered">
+      <a class="btn btn-success" asp-page="../clientes/Create" asp-route-id="@cliente.Id"><i class="fa fa-rotate"></i></a>
+      </div>
+        <div class="col-md-1 center table-bordered">
+      <a class="btn btn-danger" asp-page="../clientes/Delete" asp-route-id="@cliente.Id"><i class="fa fa-eraser"></i></a>
+      </div>
+      counter = counter + 1;
+      
+}
+</div>
 </ul>

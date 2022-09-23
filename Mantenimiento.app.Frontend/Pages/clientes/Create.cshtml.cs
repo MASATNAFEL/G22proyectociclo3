@@ -1,3 +1,5 @@
+using System.Net.WebSockets;
+using System.Net.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,10 +35,18 @@ namespace MyApp.Namespace
         {
             if(id>0)
             {
+                if(Cliente.User==null){
+                Cliente.User=Cliente.correo;    
+                }
+                if(Cliente.Pass==null){
+                Cliente.Pass=""+Cliente.Documento;    
+                }
                 Cliente=_repoCliente.UpdateCliente(Cliente);
             }
             else
             {
+                Cliente.User=Cliente.correo;
+                Cliente.Pass=""+Cliente.Documento;
                 _repoCliente.AddCliente(Cliente);
             }
            return new RedirectToPageResult("../linkspage/clientes");
