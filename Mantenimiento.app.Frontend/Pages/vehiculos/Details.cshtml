@@ -1,0 +1,34 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.DetailsModelv
+@{
+}
+<h1>informacion del vehiculo</h1>
+<hr>
+<br><br>
+<a class="btn btn-info"><i class="fa-solid fa-eye"></i></a>
+<a class="btn btn-primary" asp-page="../linkspage/vehiculos"><i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<div>
+<h5>Vehiculo</h5>
+<br><br>
+<div class="row">
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Vehiculo.Tipo):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Vehiculo.Tipo)
+    </div>
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Vehiculo.Placa):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Vehiculo.Placa)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Vehiculo.Modelo):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Vehiculo.Modelo)
+    </div>
+    </div>
+    </div>

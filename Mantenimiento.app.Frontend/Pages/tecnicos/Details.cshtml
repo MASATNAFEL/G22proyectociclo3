@@ -1,0 +1,40 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.DetailsModelt
+@{
+}
+<h1>informacion del tecnico</h1>
+<hr>
+<br><br>
+<a class="btn btn-info"><i class="fa-solid fa-eye"></i></a>
+<a class="btn btn-primary" asp-page="../linkspage/tecnicos"><i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<div>
+<h5>Tecnico</h5>
+<br><br>
+<div class="row">
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Tecnico.Nombre):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Tecnico.Nombre)
+    </div>
+    <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Tecnico.Apellido):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Tecnico.Apellido)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Tecnico.Documento):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Tecnico.Documento)
+    </div>
+        <div class="col-md-2">
+    <strong>@Html.DisplayNameFor(m=>m.Tecnico.Direccion):</strong>
+    </div>
+    <div class="col-md-10">
+    @Html.DisplayFor(m=>m.Tecnico.Direccion)
+    </div>
+    </div>
+    </div>

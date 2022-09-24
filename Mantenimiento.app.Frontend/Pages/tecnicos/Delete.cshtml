@@ -1,0 +1,37 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.DeleteModelt
+@{
+}
+<h4>informacion del tecnico que se va a eliminar</h4>
+<hr>
+<br><br>
+<a class="btn btn-danger"><i class="fa fa-eraser"></i></a>
+<a class="btn btn-primary" asp-page="../linkspage/tecnicos"> VOLVER<i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br>
+<div>
+<h5>Tecnico</h5>
+<br>
+<table>
+    <tr>
+    <th>@Html.DisplayNameFor(m=>m.Tecnico.Nombre):</th>
+    <td>@Html.DisplayFor(m=>m.Tecnico.Nombre)</td>
+    </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(m=>m.Tecnico.Apellido):</th>
+        <td>@Html.DisplayFor(m=>m.Tecnico.Apellido)</td>
+    </tr>
+    <tr>
+    <th>@Html.DisplayNameFor(m=>m.Tecnico.Documento):</th>
+    <td>@Html.DisplayFor(m=>m.Tecnico.Documento)</td>
+    </tr>
+    <tr>
+    <th>@Html.DisplayNameFor(m=>m.Tecnico.Direccion):</th>
+    <td>@Html.DisplayFor(m=>m.Tecnico.Direccion)</td>
+    </tr>
+</table>
+<br>
+<form method="post">
+<input type="hidden" asp-for="Tecnico.Id">
+<input type="submit" value="ELIMINAR" class="btn btn-danger" asp-page="/Delete/OnPost"> 
+</form>
+</div>

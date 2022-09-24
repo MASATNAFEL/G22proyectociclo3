@@ -1,0 +1,41 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.CreateModelv
+@{
+}
+<h1>Aqui se ingresa la informacion del nuevo vehiculo</h1>
+<hr>
+<br><br>
+<a class="btn btn-success"><i class="fa fa-rotate"></i></a>
+<a class="btn btn-primary" asp-page="../linkspage/vehiculos"><i
+        class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<form method="post">
+    <input type="hidden" asp-for="Vehiculo.Id" />
+    <div class="form-group row">
+        <label asp-for="Vehiculo.Tipo" class="col-md-2"></label>
+        <input asp-for="Vehiculo.Tipo" class="form-control col-md-2">
+        <label class="col-md-8"></label>
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Vehiculo.Placa" class="col-md-2"></label>
+        <input asp-for="Vehiculo.Placa" class="form-control col-md-2">
+        <label class="col-md-8"></label>
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Vehiculo.Modelo" class="col-md-2"></label>
+        <input asp-for="Vehiculo.Modelo" class="form-control col-md-2">
+        <label class="col-md-8"></label>
+    </div><br>
+    <br><br>
+    <div class="row">
+        <div class="col-md-2">
+            <input type="submit" value="Registrar" class="btn btn-success" asp-page="/Create/OnPost">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Salir" class="btn btn-primary">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Borrar" class="btn btn-danger">
+        </div>
+    </div>
+</form>

@@ -1,0 +1,46 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.CreateModelt
+@{
+}
+<h1>Aqui se ingresa la informacion del nuevo tecnico</h1>
+<hr>
+<br><br>
+<a class="btn btn-success"><i class="fa fa-rotate"></i></a>
+<a class="btn btn-primary" asp-page="../linkspage/tecnicos"><i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"></i></a>
+<br><br>
+<form method="post">
+    <input type="hidden" asp-for="Tecnico.Id"/>
+    <div class="form-group row">
+        <label asp-for="Tecnico.Nombre" class="col-md-2"></label>
+        <input asp-for="Tecnico.Nombre" class="form-control col-md-4">
+        <label class="col-md-6"></label>
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Tecnico.Apellido" class="col-md-2"></label>
+        <input asp-for="Tecnico.Apellido" class="form-control col-md-4">
+        <label class="col-md-6"></label>
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Tecnico.Documento" class="col-md-2"></label>
+         <input asp-for="Tecnico.Documento" class="form-control col-md-4">
+         <label class="col-md-6"></label>
+    </div><br>
+    <div class="form-group row">
+        <label asp-for="Tecnico.Direccion" class="col-md-2"></label>
+        <input asp-for="Tecnico.Direccion" class="form-control col-md-4">
+        <label class="col-md-6"></label>
+    </div><br>
+    <input type="hidden" asp-for="Tecnico.User">
+    <input type="hidden" asp-for="Tecnico.Pass">
+    <br><br>
+    <div class="row">
+        <div class="col-md-2">
+            <input type="submit" value="Registrar" class="btn btn-success" asp-page="/Create/OnPost">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Salir" class="btn btn-primary">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Borrar" class="btn btn-danger">
+        </div>
+</form>

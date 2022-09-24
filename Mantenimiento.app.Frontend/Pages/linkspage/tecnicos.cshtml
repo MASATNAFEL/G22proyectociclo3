@@ -1,0 +1,61 @@
+﻿@page
+@model Mantenimiento.app.Frontend.Pages.tecnicosModel
+@{ 
+int counter=1;
+}
+<div class="justify-content-center text-center">
+    <h4>Gestion de Tecnicos - Mantenimiento TIC</h4>
+</div>
+<br><br>
+
+<ul>
+<div>
+    <a class="btn btn-primary" asp-page="../tecnicos/Create">Crear <i class="fa-solid fa-user-plus"></i></a>
+</div>
+lista de tecnicos:
+
+<div class="row">
+    <div class="col-md-1 table-bordered">
+      <strong>Id</strong>
+      </div>
+      <div class="col-md-2 table-bordered">
+      <strong>Documento</strong>
+      </div>
+      <div class="col-md-6 table-bordered">
+      <strong>Nombre Completo</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Detalle</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Actualizar</strong>
+      </div>
+      <div class="col-md-1 table-bordered">
+      <strong>Eliminar</strong>
+      </div>
+
+      @foreach (var tecnico in Model.Tecnicos)
+{
+  <div class="col-md-1 center table-bordered">
+      @counter
+      </div>
+      <div class="col-md-2 table-bordered">
+      @tecnico.Documento
+      </div>
+      <div class="col-md-6 table-bordered">
+      @tecnico.Nombre @tecnico.Apellido
+      </div>
+      <div class="col-md-1 center table-bordered">
+      <a class="btn btn-info" asp-page="../tecnicos/Details" asp-route-id="@tecnico.Id"><i class="fa-solid fa-eye center"></i></a>
+      </div>
+        <div class="col-md-1 center table-bordered">
+      <a class="btn btn-success" asp-page="../tecnicos/Create" asp-route-id="@tecnico.Id"><i class="fa fa-rotate"></i></a>
+      </div>
+        <div class="col-md-1 center table-bordered">
+      <a class="btn btn-danger" asp-page="../tecnicos/Delete" asp-route-id="@tecnico.Id"><i class="fa fa-eraser"></i></a>
+      </div>
+      counter = counter + 1;
+      
+}
+</div>
+</ul>
